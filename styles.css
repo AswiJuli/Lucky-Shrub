@@ -1,71 +1,97 @@
-body{
+body {
     background-color: #cad2c5;
     font-family: Arial, sans-serif;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0;
+    padding: 3rem 5%;
+    box-sizing: border-box;
 }
 
-ul{
-    display:flex;
-    justify-content: center;
-    gap:7rem;
-    background-color: #84a98c;
-    height: 3rem;
-    align-items: center;
-}
-h1{
-    font-size:3rem;
-}
-
-h2{
-    font-size:2rem;
-}
-
-header{
-    text-align: center;
-}
-
-header > img{
-    max-width: 100px;
-    height:auto;
-    display: block;
+header, nav, main, footer {
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
 
-nav ul{
-    list-style:none;
+h1 { font-size: 3rem; }
+h2 { font-size: 1.5rem; margin-top: 0; }
+
+header {
     text-align: center;
-    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-nav li{
-    display: inline-block;
-}
-
-section{
-    display:flex;
-}
-
-article{
-    flex:1;
-}
-
-footer{
-    display:flex;
-}
-
-footer div{
-    flex:1;
-}
-
-footer div img{
-    max-width: 30px;
-    height:auto;
+header > img {
+    max-width: 80px;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0.5rem;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #84a98c;
+    height: 3rem;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+section {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+article {
+    flex: 1;
+    background-color: white;
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #84a98c;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div img {
+    max-width: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    color: #52796f;
+    font-size: 0.9rem;
 }
