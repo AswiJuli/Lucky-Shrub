@@ -1,5 +1,5 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #cad2c5;
     font-family: Arial, sans-serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -7,12 +7,24 @@ body{
     margin-right: 5%;
 }
 
+ul{
+    display:flex;
+    justify-content: center;
+    gap:7rem;
+    background-color: #84a98c;
+    height: 3rem;
+    align-items: center;
+}
 h1{
     font-size:3rem;
 }
 
 h2{
     font-size:2rem;
+}
+
+header{
+    text-align: center;
 }
 
 header > img{
