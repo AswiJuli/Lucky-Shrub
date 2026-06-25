@@ -28,6 +28,10 @@ h1, h2{
     flex-direction:column;
     justify-content:center;
     gap:1rem;
+    background-image:url('plant_back2.png');
+    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  background-blend-mode: lighten; /* Blends the color to lighten the image */
+  background-size: cover;
 }
 
 .big_pic_sub{
@@ -124,4 +128,22 @@ footer p {
     height: auto;
     display: block;
     margin: 0 auto 0.5rem;
+
+}
+
+.plant_fact p{
+    text-align:center;
+    font-size:1rem;
+    color:black;
+    font-weight:bold;
+}
+
+.plant{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-image:url('plant_back2.png');
+    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  background-blend-mode: lighten; /* Blends the color to lighten the image */
+  background-size: cover;
 }
